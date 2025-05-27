@@ -1,0 +1,255 @@
+[26-May-2025 18:46:35 Europe/Berlin] Checkout.php accessed at 2025-05-26 18:46:35
+[26-May-2025 18:46:35 Europe/Berlin] Checkout input at 2025-05-26 18:46:35: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => Baggy Jeans
+                    [price] => 23
+                    [image] => images/model1.jpg
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [name] => Strap Shirt
+                    [price] => 10
+                    [image] => images/model3.jpg
+                    [quantity] => 2
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 43
+)
+
+[26-May-2025 18:46:35 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'localhost' (using password: YES) in C:\xampp\htdocs\main.project-main\checkout.php:36
+Stack trace:
+#0 C:\xampp\htdocs\main.project-main\checkout.php(36): mysqli->__construct('localhost', 'your_username', Object(SensitiveParameterValue), 'street_style')
+#1 {main}
+  thrown in C:\xampp\htdocs\main.project-main\checkout.php on line 36
+[26-May-2025 18:46:42 Europe/Berlin] Checkout.php accessed at 2025-05-26 18:46:42
+[26-May-2025 18:46:42 Europe/Berlin] Checkout input at 2025-05-26 18:46:42: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => Baggy Jeans
+                    [price] => 23
+                    [image] => images/model1.jpg
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [name] => Strap Shirt
+                    [price] => 10
+                    [image] => images/model3.jpg
+                    [quantity] => 2
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 43
+)
+
+[26-May-2025 18:46:42 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'localhost' (using password: YES) in C:\xampp\htdocs\main.project-main\checkout.php:36
+Stack trace:
+#0 C:\xampp\htdocs\main.project-main\checkout.php(36): mysqli->__construct('localhost', 'your_username', Object(SensitiveParameterValue), 'street_style')
+#1 {main}
+  thrown in C:\xampp\htdocs\main.project-main\checkout.php on line 36
+[26-May-2025 18:49:40 Europe/Berlin] Checkout.php accessed at 2025-05-26 18:49:40
+[26-May-2025 18:49:40 Europe/Berlin] Checkout input at 2025-05-26 18:49:40: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => Baggy Jeans
+                    [price] => 23
+                    [image] => images/model1.jpg
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [name] => Strap Shirt
+                    [price] => 10
+                    [image] => images/model3.jpg
+                    [quantity] => 2
+                )
+
+        )
+
+    [payment_method] => GCash
+    [total_amount] => 43
+)
+
+[26-May-2025 18:49:40 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'your_username'@'localhost' (using password: YES) in C:\xampp\htdocs\main.project-main\checkout.php:36
+Stack trace:
+#0 C:\xampp\htdocs\main.project-main\checkout.php(36): mysqli->__construct('localhost', 'your_username', Object(SensitiveParameterValue), 'street_style')
+#1 {main}
+  thrown in C:\xampp\htdocs\main.project-main\checkout.php on line 36
+[26-May-2025 18:52:28 Europe/Berlin] Checkout.php accessed at 2025-05-26 18:52:28
+[26-May-2025 18:52:28 Europe/Berlin] Checkout input at 2025-05-26 18:52:28: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 1
+                    [name] => Baggy Jeans
+                    [price] => 23
+                    [image] => images/model1.jpg
+                    [quantity] => 1
+                )
+
+            [1] => Array
+                (
+                    [id] => 3
+                    [name] => Strap Shirt
+                    [price] => 10
+                    [image] => images/model3.jpg
+                    [quantity] => 2
+                )
+
+        )
+
+    [payment_method] => GCash
+    [total_amount] => 43
+)
+
+[26-May-2025 18:52:28 Europe/Berlin] Checkout success: Order ID 1 at 2025-05-26 18:52:28
+[26-May-2025 19:03:42 Europe/Berlin] Checkout.php accessed at 2025-05-26 19:03:42
+[26-May-2025 19:03:42 Europe/Berlin] Checkout input at 2025-05-26 19:03:42: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 3
+                    [name] => Strap shirt
+                    [price] => 10
+                    [image] => images/model3.jpg
+                    [quantity] => 2
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 20
+)
+
+[26-May-2025 19:03:42 Europe/Berlin] Checkout success: Order ID 2 at 2025-05-26 19:03:42
+[26-May-2025 19:17:10 Europe/Berlin] Checkout.php accessed at 2025-05-26 19:17:10
+[26-May-2025 19:17:10 Europe/Berlin] Checkout input at 2025-05-26 19:17:10: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 11
+                    [name] => Crop Top
+                    [price] => 5.45
+                    [image] => images/mica.jpg
+                    [quantity] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 10
+                    [name] => Jumpsuit
+                    [price] => 14.99
+                    [image] => images/karina.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 25.89
+)
+
+[26-May-2025 19:17:10 Europe/Berlin] Checkout success: Order ID 3 at 2025-05-26 19:17:10
+[26-May-2025 19:17:45 Europe/Berlin] Checkout.php accessed at 2025-05-26 19:17:45
+[26-May-2025 19:17:45 Europe/Berlin] Checkout input at 2025-05-26 19:17:45: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [name] => Jumpsuit
+                    [price] => 14.99
+                    [image] => images/karina.jpg
+                    [quantity] => 3
+                )
+
+        )
+
+    [payment_method] => Cash on Delivery
+    [total_amount] => 44.97
+)
+
+[26-May-2025 19:17:45 Europe/Berlin] Checkout success: Order ID 4 at 2025-05-26 19:17:45
+[27-May-2025 04:23:35 Europe/Berlin] Checkout.php accessed at 2025-05-27 04:23:35
+[27-May-2025 04:23:35 Europe/Berlin] Checkout input at 2025-05-27 04:23:35: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 2
+                    [name] => Baggy Jeans
+                    [price] => 14.99
+                    [image] => images/Ripped.jpg
+                    [quantity] => 2
+                )
+
+            [1] => Array
+                (
+                    [id] => 6
+                    [name] => Plain black shirt
+                    [price] => 2
+                    [image] => images/gongyo.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 31.98
+)
+
+[27-May-2025 04:23:35 Europe/Berlin] Checkout success: Order ID 5 at 2025-05-27 04:23:35
+[27-May-2025 07:35:23 Europe/Berlin] Checkout.php accessed at 2025-05-27 07:35:23
+[27-May-2025 07:35:23 Europe/Berlin] Checkout input at 2025-05-27 07:35:23: Array
+(
+    [cart] => Array
+        (
+            [0] => Array
+                (
+                    [id] => 10
+                    [name] => Jumpsuit
+                    [price] => 14.99
+                    [image] => images/karina.jpg
+                    [quantity] => 1
+                )
+
+        )
+
+    [payment_method] => Credit/Debit Card
+    [total_amount] => 14.99
+)
+
+[27-May-2025 07:35:23 Europe/Berlin] Checkout success: Order ID 6 at 2025-05-27 07:35:23
